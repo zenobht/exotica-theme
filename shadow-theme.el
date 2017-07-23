@@ -138,7 +138,7 @@
  `(isearch ((t (:foreground ,hightlight :background ,full-black))))
  `(isearch-fail ((t (:foreground ,full-white :background ,warning-bg-face))))
 
- ;; outline
+ ;; org
  `(outline-1 ((t (:foreground ,face1))))
  `(outline-2 ((t (:foreground ,face2))))
  `(outline-3 ((t (:foreground ,face3))))
@@ -147,8 +147,6 @@
  `(outline-6 ((t (:foreground ,face6))))
  `(outline-7 ((t (:foreground ,face7))))
  `(outline-8 ((t (:foreground ,face8))))
-
- ;; delimiters
  `(rainbow-delimiters-depth-1-face ((t (:inherit outline-1))))
  `(rainbow-delimiters-depth-2-face ((t (:inherit outline-2))))
  `(rainbow-delimiters-depth-3-face ((t (:inherit outline-3))))
@@ -158,6 +156,11 @@
  `(rainbow-delimiters-depth-7-face ((t (:inherit outline-7))))
  `(rainbow-delimiters-depth-8-face ((t (:inherit outline-8))))
  `(rainbow-delimiters-depth-9-face ((t (:foreground ,face1))))
+ `(org-level-1 ((t (:inherit outline-1 :weight normal :height 1.0))))
+ `(org-level-2 ((t (:inherit outline-2 :weight normal :height 1.0))))
+ `(org-level-3 ((t (:inherit outline-3 :weight normal :height 1.0))))
+ `(org-level-4 ((t (:inherit outline-4 :weight normal :height 1.0))))
+ `(org-level-5 ((t (:inherit outline-5 :weight normal :height 1.0))))
 
  ;; others
  `(secondary-selection ((t (:background ,m6))))
