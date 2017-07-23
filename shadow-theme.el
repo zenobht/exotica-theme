@@ -99,7 +99,8 @@
  `(minibuffer-prompt ((t (:foreground ,face1))))
 
  ;; powerline/modeline
- `(mode-line ((t (:foreground ,fg :background ,ml-active-face :box (:line-width 1 :color ,seperator :style released-button)))))
+ `(mode-line ((t (:foreground ,fg :background ,ml-active-face
+                              :box (:line-width 1 :color ,seperator :style released-button)))))
  `(mode-line-inactive ((t (:foreground ,ml-inactive-face :background ,bg ))))
  `(powerline-active1 ((t (:inherit mode-line :background ,bg))))
  `(powerline-active2 ((t (:inherit mode-line :background ,bg))))
@@ -178,7 +179,23 @@
  `(helm-selection ((t (:background ,full-black :foreground ,face3 :slant italic))))
  `(helm-buffer-directory ((t (:foreground ,face3))))
  `(helm-ff-directory ((t (:foreground ,face3))))
- `(helm-source-header ((t (:background ,seperator :foreground ,full-white :weight bold :height 1.3 :family "Sans Serif"))))
+ `(helm-source-header ((t (:background ,seperator :foreground ,full-white
+                                       :weight bold :height 1.3 :family "Sans Serif"))))
+
+  ;; company
+  `(company-tooltip ((t (:background ,bg :foreground ,full-white))))
+  `(company-template-field ((t (:background: ,bg :foreground ,full-white))))
+  `(company-tooltip-selection ((t (:background ,full-black :foreground ,face3 :slant italic))))
+  `(company-echo-common ((t (:foreground ,face3))))
+  ;; `(company-echo-common ((t (:foreground "tomato"))))
+  `(company-scrollbar-bg ((t (:background ,seperator))))
+  `(company-scrollbar-fg ((t (:background ,full-black))))
+  ;; `(company-tooltip-annotation ((t (:foreground "olive drab"))))
+  ;; `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
+  `(company-tooltip-common ((t (:foreground ,face8))))
+  `(company-preview ((t (:background ,full-black :foreground ,face3 :slant italic))))
+  '(company-preview-common ((t (:inherit company-preview ))))
+  ;; '(company-preview-search ((t (:inherit company-preview :background "lime green"))))
 
  ))
 
