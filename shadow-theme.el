@@ -167,7 +167,7 @@
  `(undo-tree-visualizer-active-branch-face ((t (:inherit default))))
  `(undo-tree-visualizer-current-face ((t (:foreground ,m3))))
  `(undo-tree-visualizer-default-face ((t (:inherit shadow))))
- `(undo-tree-visualizer-register-face ((t (:foreground "E6DB74"))))
+ `(undo-tree-visualizer-register-face ((t (:foreground ,m1))))
  `(undo-tree-visualizer-unmodified-face ((t (:foreground ,face1))))
 
  ;; helm-buffer
