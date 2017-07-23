@@ -64,7 +64,7 @@
      (full-black             "#000000")
      (white-smoke            "white-smoke")
      (hightlight             "#C4BE89")
-     (line-highlight         "#293739")
+     (line-highlight         "#321F1B")
    )
 
 
