@@ -205,6 +205,11 @@
   `(neo-dir-link-face ((t (:foreground ,face3 :slant italic))))
   `(neo-root-dir-face ((t (:foreground ,face1 :weight demibold))))
 
+  ;; parentheses matching
+  `(show-paren-match ((t (:background ,face8 :foreground ,full-black))))
+  `(show-paren-mismatch ((t (:background ,m7 :foreground ,full-white))))
+
+
  ))
 
 (provide-theme 'shadow)
