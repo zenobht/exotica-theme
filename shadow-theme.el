@@ -201,6 +201,10 @@
   '(company-preview-common ((t (:inherit company-preview ))))
   ;; '(company-preview-search ((t (:inherit company-preview :background "lime green"))))
 
+  ;; neotree
+  `(neo-dir-link-face ((t (:foreground ,face3 :slant italic))))
+  `(neo-root-dir-face ((t (:foreground ,face1 :weight demibold))))
+
  ))
 
 (provide-theme 'shadow)
