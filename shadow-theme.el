@@ -7,7 +7,7 @@
 ;; URL: https://github.com/jbharat/shadow-theme
 ;; Created: 22th July 2017
 ;; Version: 1.0.0
-;; Keywords: color-theme, vibrant
+;; Keywords: color-theme, dark, dark background, bright colors
 
 ;; This file is free software: you can redistribute it and/or modify
 ;; it under the terms of the GNU General Public License as published
@@ -35,9 +35,9 @@
 
 (let
     (
-     (bg                     "#1A100E")
+     (bg                     "#0B080F")
      (fg                     "#F8F8F2")
-     (seperator              "#321F1B")
+     (seperator              "#271C33")
      (cursor                 "#F8F8F0")
      (face1                  "#66D9EF")
      (face2                  "#A6E22E")
@@ -48,7 +48,7 @@
      (face7                  "#FF5996")
      (face8                  "#D9C4FF")
      (bg1                    "#403D3D")
-     (m1                     "#E6DB74")
+     (m1                     "#F6FF59")
      (m2                     "#FD971F")
      (m3                     "#EF5939")
      (m4                     "#960050")
@@ -64,7 +64,7 @@
      (full-black             "#000000")
      (white-smoke            "white-smoke")
      (hightlight             "#C4BE89")
-     (line-highlight         "#321F1B")
+     (line-highlight         "#271C33")
    )
 
 
@@ -176,24 +176,25 @@
  `(helm-ff-executable ((t (:foreground ,white-smoke))))
  `(helm-ff-file ((t (:inherit font-lock-builtin-face :foreground ,white-smoke))))
  `(helm-prefarg ((t (:foreground ,face4))))
- `(helm-selection ((t (:background ,full-black :foreground ,face3 :slant italic))))
+ `(helm-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
  `(helm-buffer-directory ((t (:foreground ,face3))))
  `(helm-ff-directory ((t (:foreground ,face3))))
- `(helm-source-header ((t (:background ,seperator :foreground ,full-white
+ `(helm-source-header ((t (:background ,full-black :foreground ,full-white
                                        :weight bold :height 1.3 :family "Sans Serif"))))
+ `(helm-swoop-target-line-block-face ((t (:background ,full-black :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-face ((t (:background ,full-black :foreground ,face3 :slant italic))))
 
   ;; company
   `(company-tooltip ((t (:background ,bg :foreground ,full-white))))
   `(company-template-field ((t (:background: ,bg :foreground ,full-white))))
-  `(company-tooltip-selection ((t (:background ,full-black :foreground ,face3 :slant italic))))
+  `(company-tooltip-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
   `(company-echo-common ((t (:foreground ,face3))))
-  ;; `(company-echo-common ((t (:foreground "tomato"))))
   `(company-scrollbar-bg ((t (:background ,seperator))))
-  `(company-scrollbar-fg ((t (:background ,full-black))))
-  ;; `(company-tooltip-annotation ((t (:foreground "olive drab"))))
-  ;; `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
+  `(company-scrollbar-fg ((t (:background ,line-highlight))))
+  `(company-tooltip-annotation ((t (:foreground ,face3))))
+  `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
   `(company-tooltip-common ((t (:foreground ,face8))))
-  `(company-preview ((t (:background ,full-black :foreground ,face3 :slant italic))))
+  `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
   '(company-preview-common ((t (:inherit company-preview ))))
   ;; '(company-preview-search ((t (:inherit company-preview :background "lime green"))))
 
