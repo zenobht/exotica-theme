@@ -48,7 +48,7 @@
      (face7                  "#FF5996")
      (face8                  "#D9C4FF")
      (bg1                    "#403D3D")
-     (m1                     "#F6FF59")
+     (m1                     "#C1CAFF")
      (m2                     "#FD971F")
      (m3                     "#EF5939")
      (m4                     "#960050")
@@ -175,9 +175,9 @@
  `(undo-tree-visualizer-unmodified-face ((t (:foreground ,face1))))
 
  ;; helm-buffer
- `(helm-buffer-file ((t (:inherit font-lock-builtin-face :foreground ,face1))))
- `(helm-ff-executable ((t (:foreground ,white-smoke))))
- `(helm-ff-file ((t (:inherit font-lock-builtin-face :foreground ,white-smoke))))
+ `(helm-buffer-file ((t (:foreground ,face1))))
+ `(helm-ff-executable ((t (:foreground ,full-white))))
+ `(helm-ff-file ((t (:foreground ,full-white))))
  `(helm-prefarg ((t (:foreground ,face4))))
  `(helm-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
  `(helm-buffer-directory ((t (:foreground ,face3))))
