@@ -60,10 +60,10 @@
      (ml-active-face         "#050302")
      (comment-face           "#465457")
      (warning-bg-face        "#333333")
-     (full-white             "#FFFFFF")
-     (full-black             "#000000")
-     (white-smoke            "white-smoke")
-     (hightlight             "#C4BE89")
+     (fullWhite             "#FFFFFF")
+     (fullBlack             "#000000")
+     (whiteSmoke            "white-smoke")
+     (hightlight             "#E7F221")
      (line-highlight         "#271C33")
    )
 
@@ -120,14 +120,18 @@
  `(font-lock-regexp-grouping-backslash ((t (:weight bold))))
  `(font-lock-regexp-grouping-construct ((t (:weight bold))))
  `(font-lock-string-face ((t (:foreground ,m1))))
- `(font-lock-type-face ((t (:foreground ,face1))))
+ `(font-lock-type-face ((t (:foreground ,face1 :italic slant))))
  `(font-lock-variable-name-face ((t (:foreground ,face3))))
- `(font-lock-warning-face ((t (:foreground ,full-white (quote :background) ,warning-bg-face))))
+ `(font-lock-warning-face ((t (:foreground ,fullWhite (quote :background) ,warning-bg-face))))
+
+ ;; js2-mode 
+ `(js2-function-call ((t (:inherit default :foreground ,face4 :slant italic))))
+ `(js2-function-param ((t (:inherit default :foreground ,face2))))
 
  ;; highlighting
- `(highlight ((t (:foreground ,full-black :background ,hightlight))))
+ `(highlight ((t (:foreground ,fullBlack :background ,hightlight))))
  `(hl-line ((t (:background ,line-highlight))))
- `(lazy-highlight ((t (:foreground ,comment-face :background ,full-black))))
+ `(lazy-highlight ((t (:foreground ,comment-face :background ,fullBlack))))
 
  ;; ido
  `(ido-first-match ((t (:foreground ,face2 :weight bold))))
@@ -135,8 +139,8 @@
  `(ido-subdir ((t (:foreground ,m2))))
 
  ;; isearch
- `(isearch ((t (:foreground ,hightlight :background ,full-black))))
- `(isearch-fail ((t (:foreground ,full-white :background ,warning-bg-face))))
+ `(isearch ((t (:foreground ,hightlight :background ,fullBlack))))
+ `(isearch-fail ((t (:foreground ,fullWhite :background ,warning-bg-face))))
 
  ;; org
  `(outline-1 ((t (:foreground ,face1))))
@@ -179,20 +183,20 @@
 
  ;; helm-buffer
  `(helm-buffer-file ((t (:foreground ,face1))))
- `(helm-ff-executable ((t (:foreground ,full-white))))
- `(helm-ff-file ((t (:foreground ,full-white))))
+ `(helm-ff-executable ((t (:foreground ,fullWhite))))
+ `(helm-ff-file ((t (:foreground ,fullWhite))))
  `(helm-prefarg ((t (:foreground ,face4))))
  `(helm-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
  `(helm-buffer-directory ((t (:foreground ,face3))))
  `(helm-ff-directory ((t (:foreground ,face3))))
- `(helm-source-header ((t (:background ,full-black :foreground ,full-white
+ `(helm-source-header ((t (:background ,fullBlack :foreground ,fullWhite
                                        :weight bold :height 1.3 :family "Sans Serif"))))
- `(helm-swoop-target-line-block-face ((t (:background ,full-black :foreground ,face3 :slant italic))))
- `(helm-swoop-target-line-face ((t (:background ,full-black :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-block-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
 
   ;; company
-  `(company-tooltip ((t (:background ,bg :foreground ,full-white))))
-  `(company-template-field ((t (:background: ,bg :foreground ,full-white))))
+  `(company-tooltip ((t (:background ,bg :foreground ,fullWhite))))
+  `(company-template-field ((t (:background: ,bg :foreground ,fullWhite))))
   `(company-tooltip-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
   `(company-echo-common ((t (:foreground ,face3))))
   `(company-scrollbar-bg ((t (:background ,seperator))))
@@ -209,9 +213,8 @@
   `(neo-root-dir-face ((t (:foreground ,face1 :weight demibold))))
 
   ;; parentheses matching
-  `(show-paren-match ((t (:background ,face8 :foreground ,full-black))))
-  `(show-paren-mismatch ((t (:background ,m7 :foreground ,full-white))))
-
+  `(show-paren-match ((t (:background ,face8 :foreground ,fullBlack))))
+  `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
  ))
 
