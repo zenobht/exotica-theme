@@ -1,10 +1,10 @@
-;;;; exotic-theme --- Summary
+;;;; exotica-theme --- Summary
 
 ;; Copyright (C) 2017 John Olsson
 
 ;; Author: Bharat Joshi <jbharat@outlook.com>
 ;; Maintainer: Bharat Joshi <jbharat@outlook.com>
-;; URL: https://github.com/jbharat/exotic-theme
+;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
 ;; Version: 1.0.0
 ;; Keywords: color-theme, dark, dark background, bright colors
@@ -30,8 +30,8 @@
 
 ;;; Code:
 
-(deftheme exotic
-  "Exotic emacs theme")
+(deftheme exotica
+  "Exotica emacs theme")
 
 (let
     (
@@ -69,7 +69,7 @@
 
 
 (custom-theme-set-faces
- 'exotic
+ 'exotica
 
  ;; default stuff
  `(default ((t (:background ,bg :foreground ,fg))))
@@ -177,7 +177,7 @@
  ;; undo-tree
  `(undo-tree-visualizer-active-branch-face ((t (:inherit default))))
  `(undo-tree-visualizer-current-face ((t (:foreground ,m3))))
- `(undo-tree-visualizer-default-face ((t (:inherit exotic))))
+ `(undo-tree-visualizer-default-face ((t (:inherit shadow))))
  `(undo-tree-visualizer-register-face ((t (:foreground ,m1))))
  `(undo-tree-visualizer-unmodified-face ((t (:foreground ,face1))))
 
@@ -221,5 +221,5 @@
 
  ))
 
-(provide-theme 'exotic)
-;;;; exotic-theme.el ends here
+(provide-theme 'exotica)
+;;;; exotica-theme.el ends here
