@@ -41,7 +41,7 @@
      (cursor                 "#F8F8F0")
      (face1                  "#66D9EF")
      (face2                  "#A6E22E")
-     (face3                  "#F92672")
+     (face3                  "#FF3DB1")
      (face4                  "#AE81FF")
      (face5                  "#A2DAE5")
      (face6                  "#D3F296")
@@ -124,9 +124,9 @@
  `(font-lock-variable-name-face ((t (:foreground ,face3))))
  `(font-lock-warning-face ((t (:foreground ,fullWhite (quote :background) ,warning-bg-face))))
 
- ;; js2-mode 
+ ;; js2-mode
  `(js2-function-call ((t (:inherit default :foreground ,face4 :slant italic))))
- `(js2-function-param ((t (:inherit default :foreground ,face2))))
+ `(js2-function-param ((t (:inherit default :foreground ,face7))))
 
  ;; highlighting
  `(highlight ((t (:foreground ,fullBlack :background ,hightlight))))
