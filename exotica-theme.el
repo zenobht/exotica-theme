@@ -191,8 +191,20 @@
  `(helm-ff-directory ((t (:foreground ,face4))))
  `(helm-source-header ((t (:background ,fullBlack :foreground ,fullWhite
                                        :weight bold :height 1.3 :family "Sans Serif"))))
- `(helm-swoop-target-line-block-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
- `(helm-swoop-target-line-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-block-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+
+ ;; ivy 
+ `(ivy-current-match ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(ivy-highlight-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
+ `(ivy-modified-buffer ((t (:inherit default :foreground ,m2))))
+ `(ivy-virtual ((t (:inherit default ))))
+ `(ivy-minibuffer-match-face-1 ((t (:inherit default :foreground ,face7))))
+ `(ivy-minibuffer-match-face-2 ((t (:inherit default :foreground ,face7))))
+ `(ivy-minibuffer-match-face-3 ((t (:inherit default :foreground ,face7))))
+ `(ivy-minibuffer-match-face-4 ((t (:inherit default :foreground ,face7))))
+ `(swiper-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+
 
   ;; company
   `(company-tooltip ((t (:background ,bg :foreground ,fullWhite))))
