@@ -124,6 +124,9 @@
  `(font-lock-variable-name-face ((t (:foreground ,face3))))
  `(font-lock-warning-face ((t (:foreground ,fullWhite (quote :background) ,warning-bg-face))))
 
+ ;; Basic face
+ `(success ((t (:foreground ,face2))))
+
  ;; js2-mode
  `(js2-function-call ((t (:inherit default :foreground ,face4 :slant italic))))
  `(js2-function-param ((t (:inherit default :foreground ,face7))))
@@ -132,11 +135,6 @@
  `(highlight ((t (:foreground ,fullBlack :background ,hightlight))))
  `(hl-line ((t (:background ,line-highlight))))
  `(lazy-highlight ((t (:foreground ,comment-face :background ,fullBlack))))
-
- ;; ido
- `(ido-first-match ((t (:foreground ,face2 :weight bold))))
- `(ido-only-match ((t (:foreground ,face2))))
- `(ido-subdir ((t (:foreground ,m2))))
 
  ;; isearch
  `(isearch ((t (:foreground ,hightlight :background ,fullBlack))))
