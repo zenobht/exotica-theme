@@ -36,7 +36,7 @@
 (let
     (
      (bg                     "#0B080F")
-     (fg                     "#F8F8F2")
+     (fg                     "#E8F0FF")
      (seperator              "#271C33")
      (cursor                 "#F8F8F0")
      (face1                  "#66D9EF")
@@ -202,6 +202,7 @@
  `(ivy-minibuffer-match-face-3 ((t (:inherit default :foreground ,face7))))
  `(ivy-minibuffer-match-face-4 ((t (:inherit default :foreground ,face7))))
  `(swiper-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(swiper-match-face-2 ((t (:foreground ,face7))))
 
 
   ;; company
