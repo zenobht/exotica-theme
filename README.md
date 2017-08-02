@@ -1,1 +1,1 @@
-# shadow-theme
+# exotica-theme
