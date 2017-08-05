@@ -1,4 +1,4 @@
-;;; exotica-theme.el --- A dark theme with vibrant colors and italics for emacs
+;;; exotica-theme.el --- A dark theme with vibrant colors
 
 ;; Copyright (C) 2017 Bharat Joshi
 
@@ -6,7 +6,7 @@
 ;; Maintainer: Bharat Joshi <jbharat@outlook.com>
 ;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
-;; Keywords: color-theme, dark, dark background, bright colors, vibrant colors
+;; Keywords: faces, theme
 ;; License: MIT
 
 ;; Version: 1.0.1
@@ -181,7 +181,7 @@
  `(helm-swoop-target-line-block-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
  `(helm-swoop-target-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
 
- ;; ivy 
+ ;; ivy
  `(ivy-current-match ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
  `(ivy-highlight-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
  `(ivy-modified-buffer ((t (:inherit default :foreground ,m2))))
@@ -235,5 +235,5 @@
   (add-to-list 'custom-theme-load-path
                (file-name-as-directory (file-name-directory load-file-name))))
 
-(provide-theme 'exotica)
+(provide 'exotica-theme)
 ;;; exotica-theme.el ends here
