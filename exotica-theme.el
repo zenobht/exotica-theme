@@ -1,32 +1,21 @@
-;;;; exotica-theme --- Summary
+;;; exotica-theme.el --- A dark theme with vibrant colors and italics for emacs
 
-;; Copyright (C) 2017 John Olsson
+;; Copyright (C) 2017 Bharat Joshi
 
 ;; Author: Bharat Joshi <jbharat@outlook.com>
 ;; Maintainer: Bharat Joshi <jbharat@outlook.com>
 ;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
-;; Version: 1.0.0
-;; Keywords: color-theme, dark, dark background, bright colors
+;; Keywords: color-theme, dark, dark background, bright colors, vibrant colors
+;; License: MIT
 
-;; This file is free software: you can redistribute it and/or modify
-;; it under the terms of the GNU General Public License as published
-;; by the Free Software Foundation, either version 3 of the License,
-;; or (at your option) any later version.
-
-;; This file is distributed in the hope that it will be useful, but
-;; WITHOUT ANY WARRANTY; without even the implied warranty of
-;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
-;; General Public License for more details.
-
-;; You should have received a copy of the GNU General Public License
-;; along with this file.  If not, see <http://www.gnu.org/licenses/>.
+;; Version: 1.0.1
+;; Package-Requires: ((emacs "24"))
 
 ;;; Commentary:
 
 ;; Bright colors over dark background with italics in fonts.
-;; Created specifically for Operator Mono font
-;; Inspired by Molokai-theme
+;; Inspired by Molokai-theme, Dracula-theme
 
 ;;; Code:
 
@@ -241,5 +230,10 @@
 
  ))
 
+;;;###autoload
+(when load-file-name
+  (add-to-list 'custom-theme-load-path
+               (file-name-as-directory (file-name-directory load-file-name))))
+
 (provide-theme 'exotica)
-;;;; exotica-theme.el ends here
+;;; exotica-theme.el ends here
