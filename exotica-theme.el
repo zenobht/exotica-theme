@@ -7,6 +7,7 @@
 ;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
 ;; Keywords: color-theme, dark, dark background, bright colors, vibrant colors
+;; License: MIT
 
 ;; Version: 1.0.1
 ;; Package-Requires: ((emacs "24"))
