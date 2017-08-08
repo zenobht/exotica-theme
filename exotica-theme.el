@@ -6,21 +6,20 @@
 ;; Maintainer: Bharat Joshi <jbharat@outlook.com>
 ;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
-;; Keywords: faces, theme
-;; License: MIT
-
+;; Keywords: faces, theme, dark, vibrant colors
+;; License: GPL3
 ;; Version: 1.0.1
 ;; Package-Requires: ((emacs "24"))
 
 ;;; Commentary:
 
-;; Bright colors over dark background with italics in fonts.
+;; Bright colors over dark background with italics.
 ;; Inspired by Molokai-theme, Dracula-theme
 
 ;;; Code:
 
 (deftheme exotica
-  "Exotica emacs theme")
+  "A dark theme with vibrant colors")
 
 (let
     (
