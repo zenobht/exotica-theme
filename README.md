@@ -3,7 +3,7 @@
 > A dark theme with vibrant colors and italics for [Emacs](https://www.gnu.org/software/emacs/).
 > Inspired by Molokai and Dracula themes
 
-## Install
+## Installation
 
 Installing using MELPA 
 ```
