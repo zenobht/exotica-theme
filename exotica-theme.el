@@ -49,7 +49,7 @@
      (face6                  "#2ee267")
      (face7                  "#FF5996")
      (face8                  "#60FCEC")
-     (face9                  "#16101E")
+     (face9                  "#433C4C")
      (bg1                    "#403D3D")
      (m1                     "#C1CAFF")
      (m2                     "#FD971F")
