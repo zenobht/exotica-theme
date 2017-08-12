@@ -171,7 +171,7 @@
  `(rainbow-delimiters-depth-9-face ((t (:foreground ,face1))))
 
  ;; others
- `(secondary-selection ((t (:background ,m6))))
+ `(secondary-selection ((t (:background ,face9))))
  `(shadow ((t (:foreground ,comment-face))))
  `(widget-inactive ((t (:background ,m7))))
 
