@@ -227,7 +227,7 @@
   `(neo-root-dir-face ((t (:foreground ,face1 :weight demibold))))
 
   ;; parentheses matching
-  `(show-paren-match ((t (:background ,face8 :foreground ,fullBlack))))
+  `(show-paren-match ((t (:background ,face7 :foreground ,fullBlack))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
   ;; dired
