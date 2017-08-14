@@ -9,6 +9,14 @@ Installing using MELPA
 ```
 M-x package-install <RET> exotica-theme
 ```
+## TODO
+- [ ] Magit
+- [ ] Org (all faces)
+- [ ] Markdown
+- [ ] Ledger
+
+
+## Screenshots
 
 ![Screenshot1](https://raw.githubusercontent.com/jbharat/exotica-theme/master/screenshots/screenshot1.png)
 
