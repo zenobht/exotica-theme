@@ -14,6 +14,7 @@ M-x package-install <RET> exotica-theme
 - [ ] Org (all faces)
 - [ ] Markdown
 - [ ] Ledger
+- [ ] Terminal support
 
 
 ## Screenshots
