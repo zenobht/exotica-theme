@@ -133,7 +133,8 @@
  ;; js2-mode
  `(js2-function-call ((t (:inherit default :foreground ,face4 :slant italic))))
  `(js2-function-param ((t (:inherit default :foreground ,face7))))
-
+ `(js2-external-variable ((t (:foreground ,face6))))
+ 
  ;; highlighting
  `(highlight ((t (:foreground ,highlighter :background ,face9))))
  `(hl-line ((t (:background ,line-highlight))))
