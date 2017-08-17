@@ -10,7 +10,7 @@ Installing using MELPA
 M-x package-install <RET> exotica-theme
 ```
 ## TODO
-- [ ] Imenu
+- [x] Imenu 
 - [ ] Magit
 - [ ] Org (all faces)
 - [ ] Markdown
