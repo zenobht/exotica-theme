@@ -221,7 +221,6 @@
   `(company-tooltip-common ((t (:foreground ,face8))))
   `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
   '(company-preview-common ((t (:inherit company-preview ))))
-  ;; '(company-preview-search ((t (:inherit company-preview :background "lime green"))))
 
   ;; neotree
   `(neo-dir-link-face ((t (:foreground ,face7 :slant italic))))
@@ -249,6 +248,15 @@
   ;; linum relative line number face
   `(linum-relative-current-face ((t (:inherit linum :foreground ,face4 :weight normal))))
 
+  ;; imenu-list
+  `(imenu-list-entry-subalist-face-0 ((t (:foreground ,face2))))
+  `(imenu-list-entry-subalist-face-1 ((t (:foreground ,face4))))
+  `(imenu-list-entry-subalist-face-2 ((t (:foreground ,face6))))
+  `(imenu-list-entry-subalist-face-3 ((t (:foreground ,face8))))
+  `(imenu-list-entry-face-0 ((t (:foreground ,face1))))
+  `(imenu-list-entry-face-1 ((t (:foreground ,face3))))
+  `(imenu-list-entry-face-2 ((t (:foreground ,face5))))
+  `(imenu-list-entry-face-3 ((t (:foreground ,face7))))
 
  ))
 
