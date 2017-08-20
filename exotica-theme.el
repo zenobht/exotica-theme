@@ -27,13 +27,22 @@
 
 ;;; Commentary:
 
-;; Bright colors over dark background with italics.
+;; Bright colors over dark background with option to enable italics
 ;; Inspired by Molokai-theme, Dracula-theme
 
 ;;; Code:
 
 (deftheme exotica
   "A dark theme with vibrant colors")
+
+(defgroup exotica-theme nil
+  "Exotica-theme options."
+  :group 'faces)
+
+(defcustom exotica-theme-enable-italics nil
+  "Enable italics for functions, comments, directories"
+  :type 'boolean
+  :group 'exotica-theme)
 
 (let
     (
@@ -68,6 +77,9 @@
      (whiteSmoke         "white-smoke")
      (highlighter            "#E7F221")
      (line-highlight         "#271C33")
+
+     (slantType (if exotica-theme-enable-italics 'italic 'normal))
+
    )
 
 
@@ -112,18 +124,18 @@
 
  ;; font
  `(font-lock-builtin-face ((t (:foreground ,face2))))
- `(font-lock-comment-face ((t (:foreground ,comment-face :slant italic))))
- `(font-lock-comment-delimiter-face ((t (:foreground ,comment-face :slant italic))))
+ `(font-lock-comment-face ((t (:foreground ,comment-face :slant ,slantType))))
+ `(font-lock-comment-delimiter-face ((t (:foreground ,comment-face :slant ,slantType))))
  `(font-lock-constant-face ((t (:foreground ,face4))))
- `(font-lock-doc-face ((t (:foreground ,m1 :slant italic))))
- `(font-lock-function-name-face ((t (:foreground ,face3 :slant italic))))
+ `(font-lock-doc-face ((t (:foreground ,m1 :slant ,slantType))))
+ `(font-lock-function-name-face ((t (:foreground ,face3 :slant ,slantType))))
  `(font-lock-keyword-face ((t (:foreground ,face1))))
  `(font-lock-negation-char-face ((t (:weight bold))))
  `(font-lock-preprocessor-face ((t (:foreground ,face2))))
  `(font-lock-regexp-grouping-backslash ((t (:weight bold))))
  `(font-lock-regexp-grouping-construct ((t (:weight bold))))
  `(font-lock-string-face ((t (:foreground ,m1))))
- `(font-lock-type-face ((t (:foreground ,face1 :italic slant))))
+ `(font-lock-type-face ((t (:foreground ,face1 :,slantType slant))))
  `(font-lock-variable-name-face ((t (:foreground ,face3))))
  `(font-lock-warning-face ((t (:foreground ,fullWhite (quote :background) ,warning-bg-face))))
 
@@ -131,7 +143,7 @@
  `(success ((t (:foreground ,face2))))
 
  ;; js2-mode
- `(js2-function-call ((t (:inherit default :foreground ,face4 :slant italic))))
+ `(js2-function-call ((t (:inherit default :foreground ,face4 :slant ,slantType))))
  `(js2-function-param ((t (:inherit default :foreground ,face7))))
  `(js2-external-variable ((t (:foreground ,face6))))
  
@@ -188,53 +200,53 @@
  `(helm-ff-executable ((t (:foreground ,fullWhite))))
  `(helm-ff-file ((t (:foreground ,fullWhite))))
  `(helm-prefarg ((t (:foreground ,face4))))
- `(helm-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(helm-selection ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
  `(helm-buffer-directory ((t (:foreground ,face4))))
  `(helm-ff-directory ((t (:foreground ,face4))))
  `(helm-source-header ((t (:background ,fullBlack :foreground ,fullWhite
                                        :weight bold :height 1.3 :family "Sans Serif"))))
- `(helm-swoop-target-line-block-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
- `(helm-swoop-target-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(helm-swoop-target-line-block-face ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
+ `(helm-swoop-target-line-face ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
 
  ;; ivy
- `(ivy-current-match ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
- `(ivy-highlight-face ((t (:background ,fullBlack :foreground ,face3 :slant italic))))
+ `(ivy-current-match ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
+ `(ivy-highlight-face ((t (:background ,fullBlack :foreground ,face3 :slant ,slantType))))
  `(ivy-modified-buffer ((t (:inherit default :foreground ,m2))))
  `(ivy-virtual ((t (:inherit default ))))
  `(ivy-minibuffer-match-face-1 ((t (:inherit default :foreground ,face7))))
  `(ivy-minibuffer-match-face-2 ((t (:inherit default :foreground ,face7))))
  `(ivy-minibuffer-match-face-3 ((t (:inherit default :foreground ,face7))))
  `(ivy-minibuffer-match-face-4 ((t (:inherit default :foreground ,face7))))
- `(swiper-line-face ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+ `(swiper-line-face ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
  `(swiper-match-face-2 ((t (:foreground ,face7))))
 
 
   ;; company
   `(company-tooltip ((t (:background ,bg :foreground ,fullWhite))))
   `(company-template-field ((t (:background: ,bg :foreground ,fullWhite))))
-  `(company-tooltip-selection ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+  `(company-tooltip-selection ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
   `(company-echo-common ((t (:foreground ,face3))))
   `(company-scrollbar-bg ((t (:background ,seperator))))
   `(company-scrollbar-fg ((t (:background ,line-highlight))))
   `(company-tooltip-annotation ((t (:foreground ,face3))))
   `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
   `(company-tooltip-common ((t (:foreground ,face8))))
-  `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant italic))))
+  `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
   '(company-preview-common ((t (:inherit company-preview ))))
 
   ;; neotree
-  `(neo-dir-link-face ((t (:foreground ,face7 :slant italic))))
+  `(neo-dir-link-face ((t (:foreground ,face7 :slant ,slantType))))
   `(neo-root-dir-face ((t (:foreground ,face1 :weight demibold))))
 
   ;; treemacs
-  `(treemacs-directory-face ((t (:foreground ,face7 :slant italic))))
+  `(treemacs-directory-face ((t (:foreground ,face7 :slant ,slantType))))
 
   ;; parentheses matching
   `(show-paren-match ((t (:background ,face7 :foreground ,fullBlack))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
   ;; dired
-  `(dired-directory ((t (:foreground ,face7 :slant italic))))
+  `(dired-directory ((t (:foreground ,face7 :slant ,slantType))))
 
   ;; Web-mode
   `(web-mode-html-attr-custom-face ((t (:foreground ,face3))))
@@ -242,7 +254,7 @@
   `(web-mode-html-attr-name-face ((t (:foreground ,face3))))
   `(web-mode-html-attr-value-face ((t (:inherit font-lock-string-face ))))
   `(web-mode-html-tag-bracket-face ((t (:foreground ,fullWhite))))
-  `(web-mode-html-tag-face ((t (:foreground ,face3 :slant italic))))
+  `(web-mode-html-tag-face ((t (:foreground ,face3 :slant ,slantType))))
   `(web-mode-html-tag-custom-face ((t (:inherit web-mode-html-tag-face))))
 
   ;; linum relative line number face
