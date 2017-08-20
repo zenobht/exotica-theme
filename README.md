@@ -17,7 +17,7 @@ M-x package-install <RET> exotica-theme
 Enables italics for functions, directories, comments
 
 ## TODO
-- [x] Imenu 
+- [x] Imenu-list 
 - [ ] Magit
 - [ ] Org (all faces)
 - [ ] Markdown
