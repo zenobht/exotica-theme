@@ -31,6 +31,7 @@ Enables italics for functions, directories, comments
 
 ![Screenshot2](https://raw.githubusercontent.com/jbharat/exotica-theme/master/screenshots/screenshot2.png)
 
+Font used [Fira](https://github.com/zwaldowski/Fira)
 ## License
 
 [GPL3 License](./LICENSE)
