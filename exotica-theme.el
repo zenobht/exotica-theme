@@ -7,7 +7,7 @@
 ;; URL: https://github.com/jbharat/exotica-theme
 ;; Created: 22th July 2017
 ;; Keywords: faces, theme, dark, vibrant colors
-;; Version: 1.0.1
+;; Version: 1.0.2
 ;; Package-Requires: ((emacs "24"))
 
 ;; License: GPL3
@@ -52,7 +52,7 @@
      (cursor                 "#F8F8F0")
      (face1                  "#66D9EF")
      (face2                  "#A6E22E")
-     (face3                  "#FF3DB1")
+     (face3                  "#FF84C9")
      (face4                  "#AE81FF")
      (face5                  "#4577D7")
      (face6                  "#2ee267")
