@@ -242,7 +242,7 @@
   `(treemacs-directory-face ((t (:foreground ,face7 :slant ,slantType))))
 
   ;; parentheses matching
-  `(show-paren-match ((t (:background ,face7 :foreground ,fullBlack))))
+  `(show-paren-match ((t (:background ,m1 :foreground ,fullBlack :weight bold))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
   ;; dired
