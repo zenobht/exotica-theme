@@ -25,13 +25,6 @@ Enables italics for functions, directories, comments
 - [ ] Terminal support
 
 
-## Screenshots
-
-![Screenshot1](https://raw.githubusercontent.com/jbharat/exotica-theme/master/screenshots/screenshot1.png)
-
-![Screenshot2](https://raw.githubusercontent.com/jbharat/exotica-theme/master/screenshots/screenshot2.png)
-
-Font used [Fira](https://github.com/zwaldowski/Fira)
 ## License
 
 [GPL3 License](./LICENSE)
