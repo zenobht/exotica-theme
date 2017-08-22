@@ -59,6 +59,7 @@
      (face7                  "#FF5996")
      (face8                  "#60FCEC")
      (face9                  "#433C4C")
+     (face10                 "#84B5FF")
      (bg1                    "#403D3D")
      (m1                     "#C1CAFF")
      (m2                     "#FD971F")
@@ -143,9 +144,9 @@
  `(success ((t (:foreground ,face2))))
 
  ;; js2-mode
- `(js2-function-call ((t (:inherit default :foreground ,face4 :slant ,slantType))))
+ `(js2-function-call ((t (:inherit default :foreground ,face10 :slant ,slantType))))
  `(js2-function-param ((t (:inherit default :foreground ,face7))))
- `(js2-external-variable ((t (:foreground ,face6))))
+ `(js2-external-variable ((t (:foreground ,face4))))
  
  ;; highlighting
  `(highlight ((t (:foreground ,highlighter :background ,face9))))
