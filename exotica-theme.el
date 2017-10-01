@@ -149,12 +149,12 @@
  `(js2-external-variable ((t (:foreground ,face4))))
  
  ;; highlighting
- `(highlight ((t (:foreground ,highlighter :background ,face9))))
+ `(highlight ((t (:foreground ,highlighter :background ,line-highlight))))
  `(hl-line ((t (:background ,line-highlight))))
  `(lazy-highlight ((t (:foreground ,comment-face :background ,fullBlack))))
 
  ;; isearch
- `(isearch ((t (:foreground ,highlighter :background ,face9))))
+ `(isearch ((t (:foreground ,highlighter :background ,line-highlight))))
  `(isearch-fail ((t (:foreground ,fullWhite :background ,warning-bg-face))))
 
  ;; org
