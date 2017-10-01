@@ -46,7 +46,7 @@
 
 (let
     (
-     (bg                     "#0B080F")
+     (bg                     "#091423")
      (fg                     "#E8F0FF")
      (seperator              "#271C33")
      (cursor                 "#F8F8F0")
@@ -77,7 +77,7 @@
      (fullBlack              "#000000")
      (whiteSmoke         "white-smoke")
      (highlighter            "#E7F221")
-     (line-highlight         "#271C33")
+     (line-highlight         "#0F2139")
 
      (slantType (if exotica-theme-enable-italics 'italic 'normal))
 
