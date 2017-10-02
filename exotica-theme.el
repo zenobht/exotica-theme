@@ -58,7 +58,7 @@
      (face6                  "#2ee267")
      (face7                  "#FF5996")
      (face8                  "#60FCEC")
-     (face9                  "#072856")
+     (face9                  "#344256")
      (face10                 "#84B5FF")
      (bg1                    "#403D3D")
      (m1                     "#C1CAFF")
@@ -97,7 +97,7 @@
  `(custom-face-tag ((t (:foreground ,face1 :weight bold))))
  `(custom-state ((t (:foreground ,face2))))
  `(italic ((t (:slant italic))))
- `(region ((t (:background ,face9))))
+ `(region ((t (:inherit default :background ,face9))))
  `(underline ((t (:underline t))))
 
  ;; diff
