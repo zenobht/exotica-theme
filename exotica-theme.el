@@ -154,8 +154,10 @@
  `(lazy-highlight ((t (:foreground ,comment-face :background ,fullBlack))))
 
  ;; isearch
- `(isearch ((t (:foreground ,highlighter :background ,line-highlight))))
+ `(isearch ((t (:foreground ,highlighter :background ,bg))))
  `(isearch-fail ((t (:foreground ,fullWhite :background ,warning-bg-face))))
+ `(ahs-plugin-whole-buffer-face ((t (:background ,bg :foreground ,highlighter ))))
+ `(ahs-face ((t (:background ,face9 :foreground ,highlighter))))
 
  ;; org
  `(outline-1 ((t (:foreground ,face1))))
