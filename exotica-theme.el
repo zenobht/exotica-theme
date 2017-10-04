@@ -158,6 +158,7 @@
  `(isearch-fail ((t (:foreground ,fullWhite :background ,warning-bg-face))))
  `(ahs-plugin-whole-buffer-face ((t (:background ,bg :foreground ,highlighter ))))
  `(ahs-face ((t (:background ,face9 :foreground ,highlighter))))
+ `(ahs-definition-face ((t (:background ,face9 :foreground ,highlighter :underline t))))
 
  ;; org
  `(outline-1 ((t (:foreground ,face1))))
