@@ -98,7 +98,7 @@
  `(custom-face-tag ((t (:foreground ,face1 :weight bold))))
  `(custom-state ((t (:foreground ,face2))))
  `(italic ((t (:slant italic))))
- `(region ((t (:inherit default :background ,face9))))
+ `(region ((t (:background ,face9))))
  `(underline ((t (:underline t))))
 
  ;; diff
