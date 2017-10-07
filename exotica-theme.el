@@ -71,13 +71,13 @@
      (diff1                  "#232526")
      (ml-inactive-face       "#BCBCBC")
      (ml-active-face         "#050302")
-     (comment-face           "#465457")
+     (comment-face           "#768082")
      (warning-bg-face        "#333333")
      (fullWhite              "#FFFFFF")
      (fullBlack              "#000000")
      (whiteSmoke         "white-smoke")
      (highlighter            "#E7F221")
-     (line-highlight         "#213354")
+     (line-highlight         "#132947")
 
      (slantType (if exotica-theme-enable-italics 'italic 'normal))
 
