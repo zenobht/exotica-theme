@@ -237,7 +237,9 @@
   `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
   `(company-tooltip-common ((t (:foreground ,face8))))
   `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
-  '(company-preview-common ((t (:inherit company-preview ))))
+  `(company-preview-common ((t (:inherit company-preview ))))
+  `(company-preview-search ((t (:inherit company-preview))))
+  
 
   ;; neotree
   `(neo-dir-link-face ((t (:foreground ,face7 :slant ,slantType))))
