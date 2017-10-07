@@ -247,7 +247,7 @@
 
   ;; parentheses matching
   ;; `(show-paren-match ((t (:height 0.8 :width condensed :box (:line-width 1 :color "cyan" :style none )))))
-  `(show-paren-match ((t (:background ,fullBlack :foreground ,fullWhite :weight bold :underline t))))
+  `(show-paren-match ((t (:background ,fullBlack :foreground ,fullWhite :underline t))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
   ;; dired
