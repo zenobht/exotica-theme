@@ -71,7 +71,8 @@
      (diff1                  "#232526")
      (ml-inactive-face       "#BCBCBC")
      (ml-active-face         "#050302")
-     (comment-face           "#768082")
+     (comment-face           "#6F777D")
+     (line-number-face       "#424952")
      (warning-bg-face        "#333333")
      (fullWhite              "#FFFFFF")
      (fullBlack              "#000000")
@@ -264,6 +265,7 @@
 
   ;; linum relative line number face
   `(linum-relative-current-face ((t (:inherit linum :foreground ,face4 :weight normal))))
+  `(linum ((t (:background ,bg :foreground ,line-number-face :weight normal))))
 
   ;; imenu-list
   `(imenu-list-entry-subalist-face-0 ((t (:foreground ,face2))))
