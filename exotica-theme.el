@@ -246,7 +246,8 @@
   `(treemacs-directory-face ((t (:foreground ,face7 :slant ,slantType))))
 
   ;; parentheses matching
-  `(show-paren-match ((t (:background ,m1 :foreground ,fullBlack :weight bold))))
+  ;; `(show-paren-match ((t (:height 0.8 :width condensed :box (:line-width 1 :color "cyan" :style none )))))
+  `(show-paren-match ((t (:background ,fullBlack :foreground ,fullWhite :weight bold :underline t))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
 
   ;; dired
