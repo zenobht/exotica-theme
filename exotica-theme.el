@@ -252,6 +252,8 @@
   ;; `(show-paren-match ((t (:height 0.8 :width condensed :box (:line-width 1 :color "cyan" :style none )))))
   `(show-paren-match ((t (:background ,fullBlack :foreground ,fullWhite :underline t))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
+  `(rainbow-delimiters-mismatched-face ((t (:inherit show-paren-mismatch :underline t))))
+  `(rainbow-delimiters-unmatched-face ((t (:inherit show-paren-mismatch))))
 
   ;; dired
   `(dired-directory ((t (:foreground ,face7 :slant ,slantType))))
