@@ -285,6 +285,11 @@
   `(imenu-list-entry-face-2 ((t (:foreground ,face5))))
   `(imenu-list-entry-face-3 ((t (:foreground ,face7))))
 
+  ;; avy
+  `(avy-lead-face ((t (:background ,face1 :foreground ,fullBlack, :weight bold))))
+  `(avy-lead-face-0 ((t (:background ,face2 :foreground ,fullBlack :weight bold))))
+  `(avy-lead-face-1 ((t (:background ,face3 :foreground ,fullBlack :weight bold))))
+  `(avy-lead-face-2 ((t (:background ,face4 :foreground ,fullBlack :weight bold))))
  ))
 
 ;;;###autoload
