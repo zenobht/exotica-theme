@@ -233,14 +233,14 @@
   ;; company
   `(company-tooltip ((t (:background ,bg :foreground ,fullWhite))))
   `(company-template-field ((t (:background: ,bg :foreground ,fullWhite))))
-  `(company-tooltip-selection ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
+  `(company-tooltip-selection ((t (:background ,line-highlight :slant ,slantType))))
   `(company-echo-common ((t (:foreground ,face3))))
   `(company-scrollbar-bg ((t (:background ,seperator))))
   `(company-scrollbar-fg ((t (:background ,line-highlight))))
   `(company-tooltip-annotation ((t (:foreground ,face3))))
   `(company-tooltip-annotation-selection ((t (:inherit company-tooltip-annotation))))
   `(company-tooltip-common ((t (:foreground ,face8))))
-  `(company-preview ((t (:background ,line-highlight :foreground ,face3 :slant ,slantType))))
+  `(company-preview ((t (:background ,line-highlight :slant ,slantType))))
   `(company-preview-common ((t (:inherit company-preview ))))
   `(company-preview-search ((t (:inherit company-preview))))
   
