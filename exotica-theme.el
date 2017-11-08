@@ -73,7 +73,7 @@
      (ml-inactive-face       "#BCBCBC")
      (ml-active-face         "#050302")
      (comment-face           "#6F777D")
-     (line-number-face       "#424952")
+     (line-number-face       "#455770")
      (warning-bg-face        "#333333")
      (fullWhite              "#FFFFFF")
      (fullBlack              "#000000")
