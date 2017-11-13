@@ -17,8 +17,8 @@
 ;; the Free Software Foundation, either version 3 of the License, or
 ;; (at your option) any later version.
 
-;; This program is distributed in the hope that it will be useful,
 ;; but WITHOUT ANY WARRANTY; without even the implied warranty of
+;; This program is distributed in the hope that it will be useful,
 ;; MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
 ;; GNU General Public License for more details.
 
@@ -290,6 +290,9 @@
   `(avy-lead-face-0 ((t (:background ,face2 :foreground ,fullBlack :weight bold))))
   `(avy-lead-face-1 ((t (:background ,face3 :foreground ,fullBlack :weight bold))))
   `(avy-lead-face-2 ((t (:background ,face4 :foreground ,fullBlack :weight bold))))
+
+
+  `(indent-guide-face ((t (:foreground ,face9))))
  ))
 
 ;;;###autoload
