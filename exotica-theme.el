@@ -156,7 +156,7 @@
  ;; highlighting
  `(highlight ((t (:foreground ,highlighter :background ,line-highlight))))
  `(hl-line ((t (:background ,line-highlight))))
- `(lazy-highlight ((t (:foreground ,comment-face :background ,fullBlack))))
+ `(lazy-highlight ((t (:foreground ,highlighter :background ,line-highlight))))
 
  ;; isearch
  `(isearch ((t (:foreground ,highlighter :background ,bg))))
