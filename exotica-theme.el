@@ -72,7 +72,7 @@
      (diff1                  "#232526")
      (ml-inactive-face       "#BCBCBC")
      (ml-active-face         "#050302")
-     (comment-face           "#6F777D")
+     (comment-face           "#646F84")
      (line-number-face       "#455770")
      (warning-bg-face        "#333333")
      (fullWhite              "#FFFFFF")
