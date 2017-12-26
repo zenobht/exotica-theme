@@ -255,7 +255,7 @@
 
   ;; parentheses matching
   ;; `(show-paren-match ((t (:height 0.8 :width condensed :box (:line-width 1 :color "cyan" :style none )))))
-  `(show-paren-match ((t (:background ,face7 :foreground ,fullBlack :weight bold))))
+  `(show-paren-match ((t (:background ,fg :foreground ,bg :weight bold))))
   `(show-paren-mismatch ((t (:background ,m7 :foreground ,fullWhite))))
   `(rainbow-delimiters-mismatched-face ((t (:inherit show-paren-mismatch :underline t))))
   `(rainbow-delimiters-unmatched-face ((t (:inherit show-paren-mismatch))))
