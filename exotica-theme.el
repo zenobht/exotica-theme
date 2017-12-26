@@ -293,7 +293,10 @@
   `(avy-lead-face-2 ((t (:background ,face4 :foreground ,fullBlack :weight bold))))
 
 
-  `(indent-guide-face ((t (:foreground ,face9))))
+  ;; indent-guide faces
+  `(indent-guide-face ((t (:foreground ,line-highlight))))
+  `(highlight-indent-guides-character-face ((t (:foreground ,line-highlight))))
+
  ))
 
 ;;;###autoload
