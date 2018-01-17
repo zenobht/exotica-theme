@@ -276,6 +276,10 @@
   `(linum-relative-current-face ((t (:inherit linum :foreground ,face4 :weight normal))))
   `(linum ((t (:background ,bg :foreground ,line-number-face :weight normal))))
 
+  ;; native line number face
+  `(line-number ((t :background ,bg :foreground ,line-number-face :weight normal)))
+  `(line-number-current-line ((t :background ,bg :foreground, face4, :weight normal)))
+
   ;; imenu-list
   `(imenu-list-entry-subalist-face-0 ((t (:foreground ,face2))))
   `(imenu-list-entry-subalist-face-1 ((t (:foreground ,face4))))
