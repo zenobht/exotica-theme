@@ -3,12 +3,20 @@
 > A dark theme with vibrant colors for [Emacs](https://www.gnu.org/software/emacs/).
 > Inspired by Molokai and Dracula themes
 
+## Screenshots
+![Screenshot1](https://raw.github.com/jbharat/exotica-theme/master/Screenshot1.png "Screenshot1")
+
+![Screenshot2](https://raw.github.com/jbharat/exotica-theme/master/Screenshot2.png "Screenshot2")
+
+Screenshot info: Spacemacs, Operator Mono font, highlight-indent-guides, treemacs, ranger
+
 ## Installation
 
 Installing using MELPA 
 ```
 M-x package-install <RET> exotica-theme
 ```
+
 ## Customizations
 
 `M-x customize-group: exotica-theme`:
