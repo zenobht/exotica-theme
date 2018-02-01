@@ -4,9 +4,9 @@
 > Inspired by Molokai and Dracula themes
 
 ## Screenshots
-![Screenshot1](https://raw.github.com/jbharat/exotica-theme/master/Screenshot1.png "Screenshot1")
+![Screenshot1](https://raw.github.com/jbharat/exotica-theme/master/screenshot1.png "Screenshot1")
 
-![Screenshot2](https://raw.github.com/jbharat/exotica-theme/master/Screenshot2.png "Screenshot2")
+![Screenshot2](https://raw.github.com/jbharat/exotica-theme/master/screenshot2.png "Screenshot2")
 
 Screenshot info: Spacemacs, Operator Mono font, highlight-indent-guides, treemacs, ranger. 
 To change the modeline and cursor on spacemacs with evil-mode
