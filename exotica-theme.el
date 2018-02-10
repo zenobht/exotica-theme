@@ -80,6 +80,7 @@
      (whiteSmoke         "white-smoke")
      (highlighter            "#E7F221")
      (line-highlight         "#132947")
+     (hl-line-highlight      "#0E1E34")
 
      (slantType (if exotica-theme-enable-italics 'italic 'normal))
 
@@ -156,7 +157,7 @@
  
  ;; highlighting
  `(highlight ((t (:foreground ,highlighter :background ,line-highlight))))
- `(hl-line ((t (:background ,line-highlight))))
+ `(hl-line ((t (:background ,hl-line-highlight))))
  `(lazy-highlight ((t (:foreground ,highlighter :background ,line-highlight))))
 
  ;; isearch
