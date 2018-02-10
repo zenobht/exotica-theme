@@ -1,6 +1,6 @@
 # Exotica-theme for [Emacs](https://www.gnu.org/software/emacs/)
 
-> A dark theme with vibrant colors for [Emacs](https://www.gnu.org/software/emacs/).
+> A dark opinionated theme with vibrant colors for [Emacs](https://www.gnu.org/software/emacs/).
 > Inspired by Molokai and Dracula themes
 
 ## Screenshots

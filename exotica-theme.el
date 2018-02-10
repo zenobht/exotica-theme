@@ -79,9 +79,9 @@
      (fullBlack              "#000000")
      (whiteSmoke         "white-smoke")
      (highlighter            "#E7F221")
+     (hl-line-highlight      "#182538")
      (line-highlight         "#132947")
-     (hl-line-highlight      "#0E1E34")
-
+     
      (slantType (if exotica-theme-enable-italics 'italic 'normal))
 
    )
